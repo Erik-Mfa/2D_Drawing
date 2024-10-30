@@ -42,5 +42,14 @@ if (isset($_GET['action'])) {
     <button onclick="drawSquare()">Start Thread 2: Draw Square</button>
     <button onclick="drawCircle()">Start Thread 3: Draw Circle</button>
     <div id="drawingArea"></div>
+
+    <!-- Link to Help -->
+    <button onclick="openHelp()">Help</button>
+
+    <script>
+        function openHelp() {
+            window.open('help.html', '_blank'); // Opens the help file in a new tab
+        }
+    </script>
 </body>
 </html>
