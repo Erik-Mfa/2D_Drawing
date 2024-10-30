@@ -1,0 +1,10 @@
+{
+    "name": "jc/2d",
+    "description": "2d_drawing",
+    "autoload": {
+        "psr-4": {
+            "Jc\\2d\\": "src/"
+        }
+    },
+    "require": {}
+}
