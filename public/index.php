@@ -24,7 +24,7 @@ if (isset($_GET['action'])) {
             echo 'Action not found.';
             break;
     }
-    exit; // Ensure no further output is sent after the image
+    exit; 
 }
 ?>
 
@@ -33,7 +33,7 @@ if (isset($_GET['action'])) {
 <head>
     <meta charset="UTF-8">
     <title>2D Drawing App</title>
-    <link rel="stylesheet" href="assets/styles.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="assets/styles.css"> 
     <script src="assets/script.js"></script>
 </head>
 <body>
